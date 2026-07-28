@@ -124,6 +124,6 @@ linkedin-post-generator/
 
 ## 📬 Connect
 
-Built by **[VIKASINI D]** — feel free to reach out on [LinkedIn](https://www.linkedin.com/in/vikasini-d-287251259/) or check out more projects on [GitHub](https://github.com/brickstoviks008).
+Built by **VIKASINI D** — feel free to reach out on [LinkedIn](https://www.linkedin.com/in/vikasini-d-287251259/) or check out more projects on [GitHub](https://github.com/brickstoviks008).
 
 ⭐ If you found this project interesting, consider giving it a star!
