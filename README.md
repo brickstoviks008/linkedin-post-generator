@@ -56,10 +56,9 @@ Writing consistent, engaging LinkedIn content is time-consuming — and most AI 
 
 ## 🖥️ Live Demo
 
-🔗 **[Try it here](#)** *(add your Streamlit Cloud link once deployed)*
+🔗 **[Try it here](https://linkedin-post-generator-zkja39ab2jykijg5qr4s9s.streamlit.app/)**
 
-![App Screenshot](#) 
-*(Add a screenshot or GIF of the app here — drag and drop into this README on GitHub, or place an image file in an `/assets` folder and reference it like `![App Screenshot](assets/demo.png)`)*
+<img width="577" height="301" alt="LinkedIn post gen snapshot" src="https://github.com/user-attachments/assets/83e78b34-a6bb-493a-9409-a1e20061c708" />
 
 ---
 
