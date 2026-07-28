@@ -19,16 +19,18 @@ Writing consistent, engaging LinkedIn content is time-consuming — and most AI 
 ---
 
 ## 🧩 How It Works — The Pipeline
-
-```mermaid
-flowchart LR
-    A["📄 Raw LinkedIn Posts<br/>(raw_posts.json)"] --> B["🤖 LLM Metadata Extraction<br/>(line count, language, tags)"]
-    B --> C["🏷️ AI Tag Unification<br/>(merges similar tags)"]
-    C --> D["💾 Processed Dataset<br/>(processed_posts.json)"]
-    D --> E["🔎 Few-Shot Retrieval<br/>(filter by topic, length, language)"]
-    E --> F["🧠 Prompt Construction<br/>(examples + instructions)"]
-    F --> G["⚡ LLM Generation<br/>(LLaMA 3.1 70B via Groq)"]
-    G --> H["📝 Final LinkedIn Post"]
+ 
+```
+ 📄 Raw Posts  ─▶  🤖 LLM Metadata      ─▶  🏷️ Tag Unification  ─▶  💾 Processed Data
+(raw_posts.json)   (tags, language,          (merges similar          (processed_posts.json)
+                     line count)               tags via LLM)
+ 
+                                                                              │
+                                                                              ▼
+ 
+ 📝 Final Post  ◀─  ⚡ LLM Generation   ◀─  🧠 Prompt Built     ◀─  🔎 Few-Shot Retrieval
+                    (LLaMA 3.1 70B          (instructions +          (filtered by topic,
+                     via Groq)               examples injected)       length, language)
 ```
 
 **In plain English:**
@@ -123,6 +125,6 @@ linkedin-post-generator/
 
 ## 📬 Connect
 
-Built by **[Your Name]** — feel free to reach out on [LinkedIn](#) or check out more projects on [GitHub](https://github.com/brickstoviks008).
+Built by **[VIKASINI D]** — feel free to reach out on [LinkedIn](https://www.linkedin.com/in/vikasini-d-287251259/) or check out more projects on [GitHub](https://github.com/brickstoviks008).
 
 ⭐ If you found this project interesting, consider giving it a star!
