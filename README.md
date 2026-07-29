@@ -58,6 +58,8 @@ Writing consistent, engaging LinkedIn content is time-consuming — and most AI 
 
 🔗 **[Try it here](https://linkedin-post-generator-zkja39ab2jykijg5qr4s9s.streamlit.app/)**
 
+> ⚠️ Note: This app is hosted on Streamlit's free tier and may take 30-60 seconds to wake up if inactive.
+
 <img width="577" height="301" alt="LinkedIn post gen snapshot" src="https://github.com/user-attachments/assets/83e78b34-a6bb-493a-9409-a1e20061c708" />
 
 ---
