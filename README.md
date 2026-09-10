@@ -2,7 +2,7 @@
 
 ### *Turn a topic into a scroll-stopping LinkedIn post — in your voice, in seconds.*
 
-An AI-powered content generation tool that learns from real LinkedIn posts and produces new ones matching a target writing style, tone, and length — powered by **Few-Shot Learning** and **LLaMA 3.1 70B** via Groq.
+An AI-powered content generation tool that learns from real LinkedIn posts and produces new ones matching a target writing style, tone, and length — powered by **Few-Shot Learning** and **openai/gpt-oss-20b** via Groq.
 
 ---
 
@@ -29,7 +29,7 @@ Writing consistent, engaging LinkedIn content is time-consuming — and most AI 
                                                                               ▼
  
  📝 Final Post  ◀─  ⚡ LLM Generation   ◀─  🧠 Prompt Built     ◀─  🔎 Few-Shot Retrieval
-                    (LLaMA 3.1 70B          (instructions +          (filtered by topic,
+                    (openai/gpt-oss-20b         (instructions +          (filtered by topic,
                      via Groq)               examples injected)       length, language)
 ```
 
@@ -88,7 +88,7 @@ Writing consistent, engaging LinkedIn content is time-consuming — and most AI 
 
 ## 🛠️ Tech Stack
 
-- **LLM:** LLaMA 3.1 70B via **Groq API** (near-instant inference)
+- **LLM:** openai/gpt-oss-20b via **Groq API**
 - **Orchestration:** LangChain
 - **Frontend:** Streamlit
 - **Data Handling:** Pandas
